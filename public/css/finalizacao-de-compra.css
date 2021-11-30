@@ -1,0 +1,44 @@
+.finalizacao-de-compra {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+
+}
+
+.minha-conta {
+    background-color: #8BC0DF;
+    width: 300px;
+    padding: 10px;
+}
+
+.minha-conta h1 {
+    text-align: center;
+}
+
+.meus-pedidos {
+    display: flex;
+    padding-top: 30px;
+    width: 500px;
+    height: 400px;
+    flex-direction: column;
+}
+
+.meus-pedidos h1 {
+    text-align: center;
+}
+
+.pedidos {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-resumo {
+    background-color: #7728ab;
+    padding: 15px 30px;
+    border-radius: 14px;
+    border: 4px;
+    color: #fff;
+    text-align:  right;
+}

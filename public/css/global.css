@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 100px;
+  flex-wrap: wrap;
+}
+
+header input {
+  border: 4px solid #8bc0df;
+  border-radius: 14px;
+  font-size: 20px;
+  padding: 20px;
+  height: 20px;
+  width: 250px;
+  border: 4px solid #8bc0df;
+  border-radius: 14px;
+  outline: none;
+}
+#slide{
+  display: flex;
+  width: 100vw;
+  margin: 50px;
+}
+
+.buscar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.button-header {
+  background-color: #7728ab;
+  padding: 11px 40px;
+  border-radius: 14px;
+  border: 4px solid #8bc0df;
+  color: #fff;
+}
+
+#logo {
+  width: 300px;
+}
+
+#carrinho {
+  width: 40px;
+}
+
+.header2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 150px;
+  background-color: #8bc0df;
+  font-size: 20px;
+  font-weight: bold;
+  flex-wrap: wrap;
+}
+
+.header2 a {
+  color: white;
+}
+
+footer {
+  margin-bottom: 0px;
+  background-color: #8bc0df;
+  padding: 40px 210px;
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.input-busca {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 100px;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+#menu-mobile {
+  display: none;
+}
+
+#h1Footer {
+  font-family: "Sacramento", cursive;
+}
+
+#sac {
+  margin-left: 40px;
+}
+
+.footer-img {
+  width: 40px;
+  margin-left: 10px;
+}
+
+#last-item {
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#last-item a {
+  color: #7728ab;
+}
+
+.conteiner-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.cards:hover {
+  background-color: #7728ab;
+}
+
+.btnCard:hover {
+  background-color: black;
+}
+
+.cards {
+  width: 300px;
+  height: 450px;
+  background-color: #8bc0df;
+  margin-bottom: 40px;
+  margin-right: 70px;
+  transition: 1s;
+  border-radius: 20px;
+  color: white;
+}
+
+.imgProdutos {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.tituloCard {
+  color: white;
+  flex-wrap: wrap;
+}
+
+.precoCard {
+  color: white;
+  text-decoration: line-through;
+  flex-wrap: wrap;
+}
+
+.precoReal {
+  color: white;
+  flex-wrap: wrap;
+}
+
+.btnCard {
+  position: inherit;
+  background-color: #7728ab;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+.menu-mobile{
+  display: none;
+}
+
+.footer-g {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.login-cadastro {
+  padding: 9px 30px;
+}
+
+@media (max-width: 450px) {
+  .header1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+  }
+  .input-busca {
+    display: none;
+  }
+  .menu-mobile {
+    display: block;
+  }
+  .header2 {
+    display: none;
+  }
+  #cards {
+    width: 200px;
+  }
+  #last-item {
+    display: none;
+  }
+  footer {
+    padding: 20px;
+  }
+}

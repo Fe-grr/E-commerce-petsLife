@@ -1,6 +1,7 @@
 <div class="conteiner-cards">
     <% produtos.forEach(produto => {%> 
         <div class="cards">
+            <form action="/produto/<%= produto.id %> " method="get">
             <img src="/img/produtos/<%=produto.image%>" class="imgProdutos" alt="<%= produto.name %>">
             <div>
                 <h2 class="tituloCard"><%= produto.name%></h2>
@@ -8,6 +9,7 @@
                 <h3 class="precoReal">R$ <%= produto.preco %></h3>
                 <button class="btnCard">Comprar</button>
             </div>
+        </form>
         </div>
     <% }) %>
 </div>

@@ -9,7 +9,6 @@ routes.post('/salvar-produto', upload.single("image"), produtoController.salvarP
 routes.delete('/deletar-produto/:id', produtoController.deletarProduto);
 routes.get('/editar-produto/:id', produtoController.editarProduto)
 routes.put('/salvar-edicao-produto/:id', upload.single("image"), produtoController.salvarEdicao)
-routes.get("/produtos", produtoController.exibirProdutos);
 
 routes.get('/produtoModels/:id', (req, res) =>{
     if(typeof Number(req.params.id) != "number") {

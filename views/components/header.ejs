@@ -9,17 +9,23 @@
             </a>     
             <div class="input-busca">
                 <div class="buscar">
-                    <input type="text">
-                    <a href="">
-                        <buttont class="button-header">Buscar</buttont>
-                    </a>
+                    <input class="input-filter" type="text" placeholder="Filtrar produtos">
+                    <button class="button-header">Filtrar</button>
                 </div>
-                <a href="/login">
-                    <button id="login-cadastro" class="button-header">Login</button>
-                </a>
+                
                 <a href="">
                     <img id="carrinho" src="/img/Icone-Carrinho.png" alt="carrinho">
                 </a>
+                <!-- <a href=""><b><= user.name ></b></a> -->
+                <a href=""><b></b> </a>
+
+                <% if(typeof user != 'undefined'){ %>
+                    <a href=""><b><%= user.name %> </b></a>
+                <% } else { %> 
+                    <a id="login-cadastro" class="button-header" href="/login"> Login </a>
+                <% } %> 
+                
+                <a href="/logout">Logout</a>
             </div>
         </section>
         <section class="header2 text-primary">

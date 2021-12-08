@@ -30,10 +30,23 @@ main.produto img {
   justify-content: space-around;
   align-items: center;
 }
+.lado-a-lado{
+  display: block;
+}
 
 .b-comprar {
   width: 100px;
   height: 30px;
+  border-radius: 10px;
+  background-color: #7728ab;
+  color: #fff;
+  font-size: 17px;
+  border: none;
+}
+
+.b-adicinar-produto {
+  width: 100px;
+  height: 50px;
   border-radius: 10px;
   background-color: #7728ab;
   color: #fff;
